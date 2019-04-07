@@ -1,0 +1,22 @@
+header{
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 335;
+  color: white;
+}
+
+footer{
+  padding-top: 10px;
+  background: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+li{
+  padding: 4px;
+  font-size: 18px;
+  text-indent: 30px;
+
+}
