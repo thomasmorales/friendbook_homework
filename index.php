@@ -11,9 +11,9 @@ include("header.html");
 
 $filename = 'friends.txt';
 
-$araay=["tom"=>"tom","fred"=>"fred"];
+
 $file = fopen( $filename, "a" );
-if (isset($_POST['input'])) {
+if (isset($_POST['input']) && !empty($_POST['input'])) {
   $friend = $_POST['input'];
 }
 if (isset($friend) && $friend!="") {
